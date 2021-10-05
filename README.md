@@ -22,7 +22,17 @@ pip install -r requirements.txt
 Go at the root of the folder and type :
 
 ```python
-python src/main.py
+python src/classifier_bug.py
 ```
 
 The summary that tensorflow gives of the sequential model should have **two layers** (Dense1 and Dense2) + the Input layer, but there's only one dense layer instead of two.
+
+![bug](bug.png)
+
+The expected behavior should be the following one.
+
+```python
+python src/classifier_right.py
+```
+
+![expected_behavior](classifier_right.png)
