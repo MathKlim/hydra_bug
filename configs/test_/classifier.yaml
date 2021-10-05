@@ -7,4 +7,4 @@ _args_:
 
   - _target_: tensorflow.keras.layers.Dense
     name: Dense2
-    units:  ${..[0].units}
+    units:  32
