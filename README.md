@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Go at the root of the folder and type :
 
 ```python
-python src/main.py
+python src/classifier.py
 ```
 
 The summary that tensorflow gives of the sequential model should have **two layers** (Dense1 and Dense2) + the Input layer, but there's only one dense layer instead of two.
