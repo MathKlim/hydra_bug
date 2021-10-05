@@ -1,0 +1,10 @@
+_target_: tensorflow.keras.models.Sequential
+_args_:
+  - _target_: tensorflow.keras.layers.Dense
+    input_shape: [12]
+    name: Dense1
+    units: 32
+
+  - _target_: tensorflow.keras.layers.Dense
+    name: Dense2
+    units:  ${..[0].units}
